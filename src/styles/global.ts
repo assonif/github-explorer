@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const backgroundImage = '../assets/background.svg';
+import { background } from '../assets/image-routes';
 
 export default createGlobalStyle`
   * {
@@ -11,7 +11,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f0f0f5 url(${backgroundImage}) no-repeat 70% top;
+    background: #f0f0f5 url(${background}) no-repeat 50vw top;
     -webkit-font-smoothing: antialiased;
   }
 
